@@ -1,7 +1,7 @@
 object Form1: TForm1
   Left = 1228
   Height = 344
-  Top = 132
+  Top = 219
   Width = 450
   Caption = 'Form1'
   ClientHeight = 344
@@ -25,7 +25,7 @@ object Form1: TForm1
     Height = 83
     Top = 112
     Width = 83
-    Position = 1
+    Position = 2
     Max = 999
     Min = 1
     OnChange = knFreqChange

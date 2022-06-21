@@ -101,10 +101,9 @@ end;
 procedure TForm1.FormCreate(Sender: TObject);            {Start mit 1kHz, 1:1}
 begin
   Caption:=capForm;
-  lblFreq.Caption:=capFreq+tab1+'['+khz+']';
-  lblPulse.Caption:=capPulse+tab1+'['+mys+']';
-  knPulse.Position:=500;                                 {Puls/Pause 1:1}
   InitPWM;
+  knPulse.Position:=500;                                 {Puls/Pause 1:1}
+  knFreq.Position:=1;
 end;
 
 function TForm1.GetFreq: int64;                          {Frequenz in Hz aus den Reglern lesen}
